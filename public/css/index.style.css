@@ -1,0 +1,130 @@
+.contact__title {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+th {
+    width: 30%;
+    text-align: left;
+}
+
+td {
+    width: 70%;
+}
+
+tr {
+    line-height: 40px;
+}
+
+input,
+textarea {
+    line-height: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+.family_name_input,
+.first_name_input,
+.email_input,
+.building_name_input {
+    width: 30%;
+}
+
+.contact_table__opinion--td {
+    vertical-align: top;
+}
+
+.contact__btn {
+    display: block;
+    margin: 10px auto 60px;
+    width: 60px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.sample {
+    color: grey;
+    font-size: 16px;
+}
+
+.asterisk {
+    color: red;
+    margin-left: 6px;
+}
+
+.sample_first_name {
+    margin-left: 30px;
+}
+
+.postcode_mark {
+    margin-right: 6px;
+}
+
+/* エラーメッセージ */
+.error_top {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.error_th {
+    color: red;
+    font-weight: bold;
+}
+
+.error_td {
+    color: red;
+}
+
+/* 性別ラジオボタン */
+.gender-radio {
+    position: relative;
+    margin: 0.5em 0;
+    padding-left: 28px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gender-radio input {
+    display: none;
+}
+
+.radio-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border: solid 2px #d4dae2;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.radio-mark:after {
+    content: "";
+    position: absolute;
+    background: #222;
+    border-radius: 50%;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    opacity: 0;
+}
+
+.gender-radio input:checked + .radio-mark:after {
+    opacity: 1;
+}

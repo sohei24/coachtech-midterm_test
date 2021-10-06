@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.complete__content {
+    width: 70%;
+    margin: 100px auto;
+}
+.complete__title {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.complete__btn {
+    display: block;
+    margin: 50px auto;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.complete__btn:hover {
+    cursor: pointer;
+}
